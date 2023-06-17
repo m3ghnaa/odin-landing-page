@@ -10,13 +10,12 @@
                 padding: 0
             }
             .header {
-                height: 40vh;
-                border: 1px solid red;
+                height: 50vh;
+                background-color: #1F2937;
                
             }
 
             .logo-links {
-                border: 1px solid yellow;
                 height: 6vh;
                 display: flex;
                 
@@ -24,39 +23,85 @@
 
             .logo {
                 height: 5vh;
-                border: 1px solid blue;
-                width: 20vw;
+                width: 40vw;
                 margin-right: 20px;
+                display: flex;
                
+            }
+
+            .logo p {
+                font-size: 24px;
+                color: #F9FAF8;
+                margin-top: 10px ;
+                padding-left: 2vw;
+            }
+
+            .logo img {
+                height: 5vh;
+                padding-left: 5vw;
+                padding-top: 1vh;
             }
             .links {
                 height: 5vh;
-                border: 1px solid blue;
-                width: 60vw;
-                margin-left: 20vw;
+                width: 40vw;
+                margin-left: 40vw;
+                margin-top: 1vh;
                 
+            }
+
+            .links a {
+                text-decoration: none;
+                padding-left: 5vw;
+                color: #E5E7EB;
+                font-size: 18px;
+               
             }
 
             .header-content {
                 height: 30vh;
-                border: 1px solid green;
                 display: flex;
                 padding-top: 3vh
             }
 
-            .first-text {
+            .header-text {
                 height: 20vh;
-                border: 1px solid pink;
-                width: 40vw;
+                width: 50vw;
                 margin-left: 5vw;
+                
+            }
+
+            .header-text button {
+                background-color: #3882F6;
+                color: white;
+                height: 5vh;
+                border: 1px solid white;
+                width: 20vw;
+            }
+
+            .first-text {
+                color: #F9FAF8;
+                font-size: 48px;
+                font-weight: bolder;
+            }
+
+            .header-content .sub-text {
+                font-size: 18px;
+                color: #E5E7EB;
             }
 
             .header-img {
-                height: 20vh;
-                border: 1px solid pink;
-                width: 40vw;
+                height: 40vh;
+                width: 30vw;
                 margin-left: 5vw;
             }
+
+            .header-img img {
+                height: 30vh;
+                padding-top: 5vh;
+                padding-left: 5vw;
+                border-radius: 25%;
+            }
+
 
         </style>
     </head>
@@ -65,17 +110,24 @@
         <div class = "header">
             <div class = "logo-links">
                 <div class = "logo">
+                    <img src = "logo.png">
+                    <p>My Reading Club</p>
                 </div>
                 <div class = "links">
+                    <a href = "#"> About </a>
+                    <a href = "#"> Books-List </a>
+                    <a href = "#"> Contact </a>
                 </div>
             </div>
 
             <div class = "header-content">
-                <div class = "first-text">
-
+                <div class = "header-text">
+                    <p class = "first-text"> Welcome to the Official Website of My Reading Club</p>
+                    <p class = "sub-text"> This is an exclusive club with evergrowing members who love to read.</p>
+                    <button> Sign Up</button>
                 </div>
                 <div class = "header-img">
-
+                    <img src = "header-img.jpg">
                 </div>
             </div>
 
